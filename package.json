@@ -1,0 +1,29 @@
+{
+  "name": "@terryweiss/probe",
+  "version": "3.0.0",
+  "description": "A tool for querying in memory objects",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "tape test/",
+    "version": "git add ."
+  },
+  "repository": "",
+  "author": "Terry Weiss",
+  "license": "MIT",
+  "dependencies": {
+    "@terryweiss/config": "^3.0.0",
+    "@terryweiss/maker": "^1.9.23",
+    "@types/lodash": "^4.14.126",
+    "async": "^2.6.2",
+    "lodash": "^4.17.11",
+    "tape": "^4.11.0"
+  },
+  "devDependencies": {
+    "semver": "^5.5.0",
+    "tap": "^12.0.1",
+    "typedoc": "^0.15.0-0",
+    "typedoc-clarity-theme": "^1.1.0",
+    "typedoc-plugin-external-module-name": "^2.0.0"
+  }
+}
