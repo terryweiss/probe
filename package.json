@@ -8,7 +8,7 @@
     "test": "tape test/",
     "version": "git add ."
   },
-  "repository": "",
+  "repository": "git@github.com:terryweiss/probe.git",
   "author": "Terry Weiss",
   "license": "MIT",
   "dependencies": {
